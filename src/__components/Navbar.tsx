@@ -9,6 +9,7 @@ const links = [
   { tag: "About", href: "/about" },
   { tag: "Gallery", href: "/gallery" },
   { tag: "Contact", href: "/contact" },
+  { tag: "Hire Us", href: "/overview" },
 ];
 
 export default function Navbar() {
