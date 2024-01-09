@@ -6,14 +6,14 @@ function Footer() {
   return (
     <div className="w-full">
       <div className="flex-col justify-center items-center text-center w-full">
-        <p className="bg-black">TRIA</p>
+        <p className="w-full bg-red-800">TRIA</p>
         <div className="flex bg-black">
           <Link href="/about">Works</Link>
           <Link href="#">Services</Link>
           <Link href="#">Contact Us</Link>
           <Link href="#">Careers</Link>
         </div>
-        <div className="flex">
+        <div className="flex flex-row">
           <Link href="#">
             <Image src="" alt="instagram" height={50} width={50} />
           </Link>
