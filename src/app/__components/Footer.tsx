@@ -4,16 +4,16 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="w-full">
+    <div className="w-full bg-gradient-to-b from-black to-#153049">
       <div className="flex-col justify-center items-center text-center w-full">
-        <p className="w-full bg-red-800">TRIA</p>
-        <div className="flex bg-black">
+        <p className="w-full">TRIA</p>
+        <div className="flex justify-center items-center">
           <Link href="/about">Works</Link>
           <Link href="#">Services</Link>
           <Link href="#">Contact Us</Link>
           <Link href="#">Careers</Link>
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row justify-center">
           <Link href="#">
             <Image src="" alt="instagram" height={50} width={50} />
           </Link>
