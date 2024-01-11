@@ -5,12 +5,14 @@ function Navbar() {
   return (
     <nav className="flex z-50 items-center px-9 justify-between text-white w-full h-32 fixed">
       <div className="p-1.5 ">
-        <p className="text-3xl flex items-center gap-1 font-Michroma">
-          TRIA{" "}
-          <span className="text-sm text-[#6BA2D3] font-Urbanist font-thin">
-            <i>Web Design Studio</i>
-          </span>
-        </p>
+        <Link href="/">
+          <p className="text-3xl flex items-center gap-1 font-Michroma">
+            TRIA{" "}
+            <span className="text-sm text-[#6BA2D3] font-Urbanist font-thin">
+              <i>Web Design Studio</i>
+            </span>
+          </p>
+        </Link>
       </div>
       <div className="flex items-center justify-around w-6/12 text-sm font-Urbanist font-thin">
         <Link href="/">Home</Link>
