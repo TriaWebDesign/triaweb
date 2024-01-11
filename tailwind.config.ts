@@ -55,6 +55,9 @@ const config: Config = {
         '1xl': '1360px',
         '4xl' : '1920px'
       },
+      boxShadow: {
+        'tinn': 'inset 0 2px 4px 0 rgb(0 0 0 / 0.05)',
+      },
       keyframes: {
         slidein: {
           '0%': { transform: 'translateX(-100%)' },
@@ -62,12 +65,23 @@ const config: Config = {
         },
         slideout: {
           '0%': { transform: 'translateX(100%)' },
-          '100%': { transform: 'translateX(0)'},
+          '100%': { transform: 'translateX(0)' },
+        },
+        firsthov: {
+          '0%': { boxShadow: '0px 0px 11.4px -5px rgb(255,255,255) inset, 0px 8px 18.3px 0px rgb(53,109,160) inset' },
+          '50%': { boxShadow: '-7px 1px 19.8px -5px rgb(255,255,255) inset, 9px -8px 18.3px 0px rgb(53,109,160) inset' },
+          '100%': { boxShadow: '0px 0px 11.4px -5px rgb(255,255,255) inset, -4px -3px 18.3px 0px rgb(53,109,160) inset' },
+        },
+        secondhov: {
+          '0%': { boxShadow: 'box-shadow: -4px -3px 18.3px 0px #356DA0 inset' },
+          '100%': { boxShadow: '-7px 2px 9.9px -5px #FFFFFF inset' },
         },
       },
       animation: {
         slidein: 'slidein',
         slideout: 'slideout',
+        firsthov: 'firsthov',
+        secondhov: 'secondhov',
       },
     },
   },

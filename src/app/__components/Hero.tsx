@@ -37,7 +37,7 @@ function Hero() {
       <div className="flex text-white relative 4xl:bottom-40 1xl:bottom-20 w-full items-center justify-center">
         <Link
           href="#"
-          className="bg-[#0B0B0B] rounded-xl w-40 h-7 text-center border border-solid border-white"
+          className="flex items-center justify-center bg-[#0B0B0B] 1xl:rounded-xl 4xl:rounded-3xl 1xl:w-40 1xl:h-7 4xl:w-64 4xl:text-2xl 4xl:h-12 text-center border border-solid border-white "
         >
           Hire Us
         </Link>
