@@ -36,6 +36,9 @@ const config: Config = {
         'screenxs1':'70vh',
         'screenxs' : '80vh',
         'screenxl': '120vh',
+        'screen1xl': '140vh',
+        'screen2xl':'160vh',
+        'screen3xl':'190vh',
       },
       width: {
         '49%': '49%',

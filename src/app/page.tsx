@@ -7,6 +7,7 @@ import About from "./__components/About";
 import Clients from "./__components/Clients";
 import WhatsTria from "./__components/WhatsTria";
 import ProjectsList from "./__components/ProjectsList";
+import OurPartners from "./__components/OurPartners";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Projects />
       <About />
       <Clients />
+      <OurPartners />
       <ProjectsList />
     </main>
   );
