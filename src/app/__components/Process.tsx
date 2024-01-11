@@ -8,7 +8,7 @@ import ExecuteIcon from "../__images/Group 64.png";
 import DeliverIcon from "../__images/Group 65.png";
 function Process() {
   return (
-    <div className="flex flex-col gap-24 font-Urbanist z-10 w-full text-white  relative bottom-64">
+    <div className="flex flex-col gap-24 font-Urbanist z-1 w-full text-white  relative bottom-64">
       <div className="w-full flex flex-col items-center justify-center text-center gap-7">
         <p className="text-white text-6xl font-semibold">Our Process</p>
         <p className="text-white w-4/12">

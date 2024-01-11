@@ -6,13 +6,13 @@ import Image from "next/image";
 function OurPartners() {
   return (
     <div className="flex flex-col gap-64 items-center font-Urbarnist text-white w-full h-screen ">
-      <div className="absolute h-screen1xl w-full bg-top bg-gradient-radial from-[#262626] to-[#00000000] rounded-full shadow-md blur-2xl">
+      <div className="absolute h-screen1xl w-full bg-top bg-gradient-radial 1xl:from-[#262626] 4xl:from-[#424242] to-[#00000000] rounded-full shadow-md 1xl:blur-2xl 4xl:blur-3x1">
         <div className="absolute inset-0 w-full h-full bg-black opacity-25 rounded-full"></div>
       </div>
       <div className="absolute h-screen w-full">
         <Image src={Recta} alt="recta" objectFit="fill" layout="cover" />
       </div>
-      <div className="absolute h-screen2xl w-full bg-gradient-to-t from-black to-[#00000000] text-white"></div>
+      <div className="absolute h-screen2xl w-full bg-gradient-to-t from-black via-[#00000000] to-[#00000000] text-white"></div>
       <div className="flex flex-col justify-center items-center text-center w-full gap-2 z-10">
         <p className="text-6xl w-full font-semibold">Our Partners</p>
         <p className="text-xs w-5/12">
@@ -21,7 +21,7 @@ function OurPartners() {
           eget. Non risus feugiat porta integer.
         </p>
       </div>
-      <div className=" w-6/12 text-center z-10">
+      <div className=" w-6/12 text-center z-10 flex flex-col justify-center items-center gap-10">
         <div className="">
           <Image src={AmedaLogo} alt="ameda logo" />
         </div>

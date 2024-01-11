@@ -9,9 +9,9 @@ import DigitalMarketingIcon from "../__images/Group 61.png";
 
 function Services() {
   return (
-    <div className="flex flex-col z-40 w-full justify-center items-center p-32 text-white font-Urbanist overflow-auto bg-[url('https://scontent.fdvo1-2.fna.fbcdn.net/v/t1.15752-9/418025023_912223373895316_6882642441593892234_n.png?stp=dst-png_p1080x2048&_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeG8cbDMH1lSVSVjULhtkN7x143Y2AyhVaLXjdjYDKFVokXiy98gckUWDhH1vtH7xrjXY03awSzXR-TRtZb7X6Oy&_nc_ohc=xjbLLHXo-IcAX-oYWW0&_nc_ht=scontent.fdvo1-2.fna&oh=03_AdRoEZv8Sd4Yyugm-4pOCfOtlnzRgIuNfHEtFVBrW_l6fg&oe=65C48933')] relative bottom-102 bg-cover bg-top bg-no-repeat 4xl:bottom-102 1xl:bottom-100">
+    <div className="flex flex-col z-10 w-full justify-center items-center p-32 text-white font-Urbanist overflow-auto  bg-cover bg-top bg-no-repeat bg-[url('https://scontent.xx.fbcdn.net/v/t1.15752-9/418025023_912223373895316_6882642441593892234_n.png?_nc_cat=106&ccb=1-7&_nc_sid=510075&_nc_eui2=AeFMyIrbA6dh3qAeSagRSwjT143Y2AyhVaLXjdjYDKFVorxz3pzVlYh9aESNiDtQOx857Y9CSTazoU4_0U8S2ZN3&_nc_ohc=xjbLLHXo-IcAX-3WPWF&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSmAENqFs99zvuDWg4-3WeMNKTvl1dvkzBPwbmxgZDwZA&oe=65C48933')] relative 1xl:bottom-100 4xl:bottom-102">
       <div className="h-screenxs"></div>
-      <div className="flex flex-col items-center gap-10 justify-center h-screen w-full">
+      <div className="flex flex-col items-center gap-10 justify-center h-screen w-full z-40">
         <div className="flex flex-col items-center gap-10 text-center w-full">
           <p className="text-3xl">
             Services that lead the way to better business
