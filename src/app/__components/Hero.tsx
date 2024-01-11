@@ -4,9 +4,11 @@ import TriaText from "../__images/Frame 22.png";
 import Motto from "../__images/Frame 23.png";
 
 import Image from "next/image";
+import BGVideo from "./BGVideo";
 function Hero() {
   return (
     <div className="flex flex-wrap relative -z-0 bottom-20 font-Urbanist text-white p-20 bg-[url('https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.15752-9/413386161_1576365379803955_1660606470693317641_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEKQtv-VHW_G8bnzB1dUsOrIFvF1bLkwfUgW8XVsuTB9cPbhHdqnEIMNs1_f7gkW21s3uy65SRyFxL2d2dypP53&_nc_ohc=tp58xMIhARsAX-iF7jo&_nc_ht=scontent.fcgy2-2.fna&oh=03_AdROJryMMSiVBne2h-cdoSdaLakHurPKYycCOYWPpUFNPA&oe=65C46499')] bg-contain w-full h-screenxl 4xl:102 1xl:100">
+      <BGVideo />
       <div className="w-6/12 flex  items-center ">
         <Image
           className="relative 4xl:top-40 4xl:left-40 4xl:h-96 4xl:w-96 1xl:w-64 1xl:top-24 1xl:left-28"
