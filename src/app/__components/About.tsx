@@ -9,7 +9,7 @@ function About() {
     <div className="flex flex-col justify-center items-center text-white font-Urbanist w-full relative ">
       <div className="flex w-full items-center justify-around">
         <div className="flex justify-center w-49% p-10">
-          <p className="w-8/12 text-left  text-3xl">
+          <p className="1xl:w-8/12 text-left  1xl:text-3xl 4xl:text-4xl 4xl:w-6/12">
             We're a lean creative team that uses{" "}
             <span className="text-[#FACC07]">design</span> and{" "}
             <span className="text-[#6BA2D3]">code</span> to create.
@@ -17,7 +17,7 @@ function About() {
         </div>
 
         <div className=" h-36 w-0.5 bg-[#E2E2E2]"></div>
-        <div className="w-49% px-20 py-8 ">
+        <div className="1xl:w-49% px-20 py-8 4xl:w-5/12">
           <p className=" w-86% text-left  text-sm">
             Semper bibendum nisl, fermentum mi convallis. Sed vitae tincidunt
             nunc, aliquam orci. Porttitor faucibus morbi sed senectus justo,

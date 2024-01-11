@@ -26,6 +26,7 @@ const config: Config = {
         '98': '26rem',
         '100': '28rem',
         '102': '40rem',
+        '108': '46rem',
         '-97' : '-25rem'
       },
       fontSize: {
