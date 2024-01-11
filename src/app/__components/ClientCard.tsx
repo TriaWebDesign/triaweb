@@ -1,12 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Star from "../__images/Group 66.png";
-import ArrowLeft from "../__images/VectorLeft.png";
-import ArrowRight from "../__images/VectorRight.png";
 import KeymarIcon from "../__images/Rectangle 45.png";
 import BlurredBG from "../__images/Rectangle 145.png";
 import arrowR from '../__images/Arrow-Icon.png'
 import arrowL from '../__images/Arrow-Icon1.png'
+
 function ClientCard() {
   return (
     <div className=" text-white w-10/12 4xl:h-auto 1xl:h-auto px-8 py-12 bg-contain bg-no-repeat font-Urbanist rounded-3xl bg-[#FFFFFF08]">
