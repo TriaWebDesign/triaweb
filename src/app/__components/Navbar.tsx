@@ -44,7 +44,7 @@ function Navbar() {
       className="flex z-50 items-center px-9 justify-between text-white w-full h-32 fixed"
       style={{
         backgroundColor: scrolled ? "#23252b" : "transparent",
-        height: "90px",
+        height: "80px",
       }}
     >
       <div className="p-1.5 ">
