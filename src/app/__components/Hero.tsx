@@ -29,6 +29,7 @@ function Hero() {
       <div className="flex w-full text-xs1 relative 4xl:bottom-10 1xl:bottom-8 justify-center">
         <div className="flex justify-around w-2/12">
           <p>UI/UX</p>
+          <p>WEB DEVELOPMENT</p>
           <p>LANDING PAGES</p>
           <p>PORTFOLIO</p>
         </div>
