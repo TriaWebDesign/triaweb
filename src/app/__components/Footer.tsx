@@ -8,7 +8,7 @@ import TwitterIcon from "../__images/Group 71.png";
 import YoutubeIcon from "../__images/Group 72.png";
 function Footer() {
   return (
-    <div className="flex flex-col w-full text-sm text-white font-Urbanist bg-gradient-to-b from-black to-[#153049] ">
+    <div className="flex flex-col w-full z-40 text-sm text-white font-Urbanist bg-gradient-to-b from-black to-[#153049] ">
       <div className="flex flex-col gap-10 justify-center items-center text-center w-full p-20">
         <p className="w-full font-Michroma text-3xl">TRIA</p>
         <div className="flex justify-around items-center w-4/12">

@@ -11,7 +11,7 @@ import OurPartners from "./__components/OurPartners";
 
 export default function Home() {
   return (
-    <main className="bg-black">
+    <main className="bg-black w-full">
       <Hero />
       <Services />
       <WhatsTria />
