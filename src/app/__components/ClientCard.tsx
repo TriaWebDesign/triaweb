@@ -5,9 +5,11 @@ import ArrowLeft from "../__images/VectorLeft.png";
 import ArrowRight from "../__images/VectorRight.png";
 import KeymarIcon from "../__images/Rectangle 45.png";
 import BlurredBG from "../__images/Rectangle 145.png";
+import arrowR from '../__images/Arrow-Icon.png'
+import arrowL from '../__images/Arrow-Icon1.png'
 function ClientCard() {
   return (
-    <div className=" text-white w-full px-8 py-12 bg-contain bg-no-repeat font-Urbanist bg-[url('https://scontent.fdvo1-1.fna.fbcdn.net/v/t1.15752-9/410919042_405222448521416_4623666915804519756_n.png?_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeED9NSbOkQpyckzQcwdjGjeT4Q5zpEZ1AxPhDnOkRnUDKgZUzCE-u_eHmw6s5LuunQjNGDi11oUkfimtY4feCLU&_nc_ohc=f82aUxs6byQAX_7mGZW&_nc_ht=scontent.fdvo1-1.fna&oh=03_AdSGOJF4eXVdPncXrcjEd-Yhp1br1Pkt_AZ-GYETO9VJ_Q&oe=65C4BE3E')]">
+    <div className=" text-white w-9/12 h-11/12 px-8 py-12 bg-cover bg-no-repeat font-Urbanist bg-[#FFFFFF08] rounded-3xl">
       <div className="flex flex-col gap-10 w-full">
         <div className="flex flex-col gap-10">
           <p className="text-3xl semi-backend w-8/12 capitalize">
@@ -33,9 +35,13 @@ function ClientCard() {
               <p>Cloudexter</p>
             </div>
           </div>
-          <div className="flex w-4/12 justify-between">
-            <Image src={ArrowLeft} alt="arrow left" height={15} />
-            <Image src={ArrowRight} alt="arow right" height={15} />
+          <div className="flex w-4/12 justify-between items-center">
+            <div className="bg-[#C4C4C44D] p-2 rounded-full">
+              <Image src={arrowL} alt="arrow left" height={25} className=""/>
+            </div>
+            <div className="bg-[#C4C4C44D] p-2 rounded-full">
+              <Image src={arrowR} alt="arow right" height={25} className=""/>
+            </div>
           </div>
         </div>
       </div>
