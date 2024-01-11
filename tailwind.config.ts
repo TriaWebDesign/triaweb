@@ -21,6 +21,7 @@ const config: Config = {
         '21' : '5.5rem',
         '22': '6rem', 
         '23': '6.5rem',
+        '42': '10.5rem',
         '97' : " 25rem",
         '98': '26rem',
         '100': '28rem',
@@ -47,6 +48,7 @@ const config: Config = {
       },
       screens: {
         '1xl': '1360px',
+        '4xl' : '1920px'
       },
     },
   },
