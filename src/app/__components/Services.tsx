@@ -24,7 +24,7 @@ function Services() {
           </p>
         </div>
         <div className="flex items-center justify-center w-full">
-          <div className="flex flex-row justify-center gap-10 flex-wrap 1xl:w-9/12">
+          <div className="flex flex-row justify-center gap-10 flex-wrap 4xl:w-7/11 1xl:w-9/12">
             <div className="flex flex-col text-center items-center">
               <Image className="pb-2" src={WebdevIcon} alt="" height={100} />
               <p className="text-[#6BA2D3]">Website Development</p>
