@@ -35,6 +35,7 @@ const config: Config = {
       height: {
         'screenxs1':'70vh',
         'screenxs' : '80vh',
+        'screenxss' : '98vh',
         'screenxl': '120vh',
         'screen1xl': '140vh',
         'screen2xl':'160vh',

@@ -29,7 +29,7 @@ function Projects() {
       </div>
       <div className="">
         <Link
-          href="#"
+          href="/AllProjects"
           className=" rounded-xl border-2 border-solid border-white py-2 px-3"
         >
           See All Projects

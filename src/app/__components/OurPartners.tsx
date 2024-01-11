@@ -12,9 +12,9 @@ function OurPartners() {
       <div className="absolute h-screen w-full">
         <Image src={Recta} alt="recta" objectFit="fill" layout="cover" />
       </div>
-      <div className="absolute h-screen2xl w-full bg-gradient-to-t from-black to-[#00000000] text-white"></div>
+      <div className="absolute h-screen2xl w-full bg-gradient-to-t from-black via-[#00000000] to-[#00000000]  text-white"></div>
       <div className="flex flex-col justify-center items-center text-center w-full gap-2 z-10">
-        <p className="text-6xl w-full font-semibold">Our Partners</p>
+        <p className="text-6xl w-full font-medium">Our Partners</p>
         <p className="text-xs w-5/12">
           Interdum ac tincidunt molestie facilisis. Nulla at erat odio bibendum
           diam quam. Scelerisque mus vel egestas justo, purus consequat nibh
