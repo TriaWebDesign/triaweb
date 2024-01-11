@@ -23,6 +23,7 @@ const config: Config = {
         '97' : " 25rem",
         '98': '26rem',
         '100': '28rem',
+        '102': '40rem',
         '-97' : '-25rem'
       },
       fontSize: {
