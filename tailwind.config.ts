@@ -51,6 +51,20 @@ const config: Config = {
         '1xl': '1360px',
         '4xl' : '1920px'
       },
+      keyframes: {
+        slidein: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+        slideout: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0)'},
+        },
+      },
+      animation: {
+        slidein: 'slidein',
+        slideout: 'slideout',
+      },
     },
   },
   plugins: [],

@@ -16,7 +16,8 @@ function page() {
   return (
     <div className='flex flex-col justify-center items-center w-full bg-[#ffffff] font-urbanist'>
       
-      <div className='w-full'>
+      {/* About */}
+      <div className='w-full pt-20'>
         <p className='flex justify-center items-center font-bold text-5xl pb-4 pt-20'>
           About Us
         </p>
@@ -25,17 +26,19 @@ function page() {
         </p>
       </div>
       
-      <div className='flex justify-evenly pt-24 pb-24 bg-[#C4C4C426] w-full'>
-        <p className='flex justify-center items-center font-semibold text-4xl w-6/12 border-r-4'>
+      {/* top com */}
+      <div className='flex justify-evenly pt-24 pb-24 bg-[#C4C4C426] w-full overflow-hidden'>
+        <p className='flex justify-center items-center font-semibold text-4xl w-6/12 border-r-4 animate-[slidein_700ms]'>
           You guessed it. We're <br></br> changing the game. 
         </p>
-        <p className='flex justify-center items-center text-[#00000080] w-6/12 font-semibold'>Semper bibendum nisl, fermentum mi convallis. Sed vitae tincidunt <br>
+        <p className='flex justify-center items-center text-[#00000080] w-6/12 font-semibold animate-[slideout_700ms]'>Semper bibendum nisl, fermentum mi convallis. Sed vitae tincidunt <br>
         </br>nunc, aliquam orci. Porttitor faucibus morbi sed senectus justo, <br>
         </br>adipiscing augue. Est, in in pretium at libero morbi. Euismod viverra <br>
         </br>arcu nisi eu sit. <br>
         </br>Praesent diam non imperdiet potenti tristique et. Amet nec.</p>
       </div>
 
+      {/* lead */}
       <div className='w-full'>
         <p className='flex justify-center items-center font-semibold text-4xl pt-10'>
           Our Leadership Team
@@ -46,6 +49,7 @@ function page() {
         </p>
       </div>
 
+      {/* img wrap */}
       <div className='flex flex-row flex-wrap justify-center items-center gap-y-10 gap-x-72 w-8/12 pt-10'>
         <div className='text-center'>
           <Image src={nathan} alt='nathan' height={180} width={180} objectFit='contain'/>
@@ -84,6 +88,7 @@ function page() {
         </div>
       </div>
 
+      {/* test job ops */}
       <div className='flex justify-evenly pt-24 pb-24  '>
         <div className='bg-[#C4C4C426] px-12 py-12'>
           <p className='flex justify-center items-center font-semibold text-5xl'>
@@ -103,11 +108,13 @@ function page() {
         </div>
       </div>
 
+      {/* blogs */}
       <div className=''>
         <p className='flex justify-center items-center font-semibold text-5xl'>From The Blog</p>
       </div>
 
-      <div className='flex justify-center items-center gap-10 py-5 px-5 '>
+      {/* img-blogs */}
+      <div className='flex justify-center items-center gap-10 py-5 px-5 pb-20'>
         <div className=''>
           <Image src={add1} alt='add1' height={440} width={440} className='rounded-tl-lg rounded-tr-md'/>
           <div className='bg-[#F1F1F3] h-44 w-102 py-3 px-3 rounded-bl-xl rounded-br-xl'>
