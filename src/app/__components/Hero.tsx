@@ -18,17 +18,17 @@ function Hero() {
       <div className="w-6/12 flex justify-end  ">
         <Image className="mt-28" src={Motto} alt="heroText" width={435} />
       </div>
-      <div className="flex text-[#6BA2D3] relative bottom-24 text-base text-center w-full items-center justify-center">
+      <div className="flex text-[#6BA2D3] relative text-base text-center w-full items-center justify-center">
         <p>D E S I G N {"_"} S T U D I O</p>
       </div>
-      <div className="flex w-full text-xs1 relative bottom-22 justify-center">
+      <div className="flex w-full text-xs1 relative bottom-10 justify-center">
         <div className="flex justify-around w-2/12">
           <p>UI/UX</p>
           <p>LANDING PAGES</p>
           <p>PORTFOLIO</p>
         </div>
       </div>
-      <div className="flex text-white relative bottom-24 w-full items-center justify-center">
+      <div className="flex text-white relative bottom-40 w-full items-center justify-center">
         <Link
           href="#"
           className="bg-[#0B0B0B] rounded-xl w-40 h-7 text-center border border-solid border-white"
