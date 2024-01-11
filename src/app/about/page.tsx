@@ -164,7 +164,7 @@ function page() {
 
       {/* img-blogs */}
       <div className="flex justify-center items-center gap-10 py-5 px-5 pb-20">
-        <div className="1xl:w-3/12">
+        <div className="1xl:w-3/12 4xl:w-4/12">
           <Image
             src={add1}
             alt="add1"
@@ -187,7 +187,7 @@ function page() {
           </div>
         </div>
 
-        <div className="1xl:w-3/12">
+        <div className="1xl:w-3/12 4xl:w-4/12">
           <Image
             src={add2}
             alt="add2"
@@ -209,7 +209,7 @@ function page() {
           </div>
         </div>
 
-        <div className="1xl:w-3/12">
+        <div className="1xl:w-3/12 4xl:w-4/12">
           <Image
             src={add3}
             alt="add3"
