@@ -18,8 +18,9 @@ const config: Config = {
         'Urbanist' : 'Urbanist'
       },
       spacing: {
-        '22': '6rem', 
         '21' : '5.5rem',
+        '22': '6rem', 
+        '23': '6.5rem',
         '97' : " 25rem",
         '98': '26rem',
         '100': '28rem',
@@ -27,7 +28,7 @@ const config: Config = {
         '-97' : '-25rem'
       },
       fontSize: {
-        'xs1': '0.65rem',
+        'xs1': '0.55rem',
       },
       height: {
         'screenxs1':'70vh',
@@ -43,6 +44,9 @@ const config: Config = {
         '86%': '86%',
         '101': '170px',
         '102': '440px',
+      },
+      screens: {
+        '1xl': '1360px',
       },
     },
   },
