@@ -57,6 +57,7 @@ const config: Config = {
       },
       boxShadow: {
         'tinn': 'inset 0 2px 4px 0 rgb(0 0 0 / 0.05)',
+        'all': '0px 6px 10px rgba(0, 0, 0, 0.15)',
       },
       keyframes: {
         slidein: {

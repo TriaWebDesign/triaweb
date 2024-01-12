@@ -21,7 +21,7 @@ function OurPartners() {
           eget. Non risus feugiat porta integer.
         </p>
       </div>
-      <div className=" w-6/12 text-center z-10">
+      <div className="flex flex-col w-6/12 text-center z-10 gap-10">
         <div className="">
           <Image src={AmedaLogo} alt="ameda logo" />
         </div>
