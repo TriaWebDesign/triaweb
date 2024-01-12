@@ -10,7 +10,7 @@ function WhatsTria() {
           height="615"
           src="https://www.youtube.com/embed/DTCxg8VX41I?si=Fa6Wy54uckw9j6F0"
           title="Whats Tria"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
         ></iframe>
       </div>

@@ -7,8 +7,9 @@ import Image from "next/image";
 import BGVideo from "./HeroBGVideo";
 function Hero() {
   return (
-    <div className="flex flex-wrap relative bottom-20 font-Urbanist text-white p-20 bg-[url('https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.15752-9/413386161_1576365379803955_1660606470693317641_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEKQtv-VHW_G8bnzB1dUsOrIFvF1bLkwfUgW8XVsuTB9cPbhHdqnEIMNs1_f7gkW21s3uy65SRyFxL2d2dypP53&_nc_ohc=tp58xMIhARsAX-iF7jo&_nc_ht=scontent.fcgy2-2.fna&oh=03_AdROJryMMSiVBne2h-cdoSdaLakHurPKYycCOYWPpUFNPA&oe=65C46499')] bg-contain w-full h-screenxl 4xl:102 1xl:100">
+    <div className="flex flex-wrap relative bottom-20 font-Urbanist text-white p-20  w-full h-screenxl 4xl:102 1xl:100">
       <BGVideo />
+      <div className="absolute 1xl:left-0 1xl:top-0 h-screenxl 4xl:top-5 4xl:right-0 w-full bg-gradient-to-t from-black via-[#00000000] to-[#00000000"></div>
       <div className="w-6/12 flex  items-center ">
         <Image
           className="relative 4xl:top-40 4xl:left-40 4xl:h-96 4xl:w-96 1xl:w-64 1xl:top-24 1xl:left-28 "
