@@ -2,26 +2,14 @@
 import Link from "next/link";
 import React from "react";
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
+
 function Navbar() {
   const [changeColor, setChangeColor] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  const handlePageChange = () => {
-    const pathname = window.location.pathname;
-    console.log(pathname);
-
-    if (pathname === "/about") {
-      setChangeColor(true);
-    } else {
-      setChangeColor(false);
-    }
-  };
-  useEffect(() => {
-    window.addEventListener("popstate", handlePageChange);
-    handlePageChange();
-
-    return () => window.removeEventListener("popstate", handlePageChange);
-  }, [handlePageChange]);
+  const currentPath = usePathname();
+  console.log(currentPath);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,9 +29,10 @@ function Navbar() {
   }, []);
   return (
     <nav
-      className="flex z-50 items-center px-9 justify-between text-white w-full h-32 fixed"
+      className={`flex z-50 items-center px-9 justify-between w-full h-[80px] fixed text-white `}
       style={{
-        backgroundColor: scrolled ? "#23252b" : "transparent",
+        backgroundColor:
+          scrolled || currentPath !== "/" ? "#23252b" : "transparent",
         height: "80px",
       }}
     >
@@ -57,7 +46,7 @@ function Navbar() {
           </p>
         </Link>
       </div>
-      <div className="flex items-center justify-around w-6/12 text-sm font-Urbanist font-thin">
+      <div className="1xl:flex items-center justify-around w-6/12 text-sm font-Urbanist font-thin sm: hidden">
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/services">Services</Link>
@@ -65,6 +54,9 @@ function Navbar() {
         <Link className="bg-[#6BA2D3] px-6 py-2 rounded-xl" href="/hireus">
           Hire Us
         </Link>
+      </div>
+      <div className="1xl:hidden sm: flex text-white">
+        <p>burgir</p>
       </div>
     </nav>
   );

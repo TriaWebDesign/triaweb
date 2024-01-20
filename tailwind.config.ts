@@ -53,7 +53,9 @@ const config: Config = {
       },
       screens: {
         '1xl': '1360px',
-        '4xl' : '1920px'
+        '4xl' : '1920px',
+        'mobile-max': {'max': '640px'},
+
       },
       boxShadow: {
         'tinn': 'inset 0 2px 4px 0 rgb(0 0 0 / 0.05)',

@@ -24,7 +24,12 @@ function Projects() {
       </div>
       <div className="flex justify-around w-9/12">
         {projects.map((project, index) => (
-          <Image key={index} src={project.url} alt={project.alt} height={300} />
+          <Image
+            key={index}
+            src={project.url}
+            alt={project.alt}
+            className=" mobile-max:max-w-[100px] 1xl:w-[300px] 4xl:[300px]"
+          />
         ))}
       </div>
       <div className="">

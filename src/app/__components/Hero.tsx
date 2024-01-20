@@ -9,20 +9,22 @@ function Hero() {
   return (
     <div className="flex flex-wrap relative bottom-20 font-Urbanist text-white p-20  w-full h-screenxl 4xl:102 1xl:100">
       <BGVideo />
-      <div className="absolute 1xl:left-0 1xl:top-0 h-screenxl 4xl:top-5 4xl:right-0 w-full bg-gradient-to-t from-black via-[#00000000] to-[#00000000"></div>
-      <div className="w-6/12 flex  items-center ">
-        <Image
-          className="relative 4xl:top-40 4xl:left-40 4xl:h-96 4xl:w-96 1xl:w-64 1xl:top-24 1xl:left-28 "
-          src={TriaText}
-          alt="heroText"
-        />
-      </div>
-      <div className="w-6/12 flex justify-end  ">
-        <Image
-          className="relative 4xl:top-44 4xl:right-16 h-auto 4xl:w-8/12 1xl:w-98 1xl:top-28 1xl:right-5"
-          src={Motto}
-          alt="heroText"
-        />
+      <div className="absolute mobile-max:left-0 mobile-max:top-0 1xl:left-0 1xl:top-0 h-screenxl 4xl:top-5 4xl:right-0 w-full bg-gradient-to-t from-black via-[#00000000] to-[#00000000"></div>
+      <div className="1xl:flex 4xl:flex w-full justify-around mobile-max:justify-center items-center">
+        <div className="w-6/12 flex  items-center ">
+          <Image
+            className="relative 4xl:top-40 4xl:left-40 4xl:h-96 4xl:w-96 1xl:w-64 1xl:top-24 1xl:left-28 "
+            src={TriaText}
+            alt="heroText"
+          />
+        </div>
+        <div className="w-6/12 flex justify-end  ">
+          <Image
+            className="relative 4xl:top-44 4xl:right-16 h-auto 4xl:w-8/12 1xl:w-98 1xl:top-28 1xl:right-5"
+            src={Motto}
+            alt="heroText"
+          />
+        </div>
       </div>
       <div className="flex text-[#6BA2D3] relative 4xl:bottom-0 1xl:bottom-4 text-base text-center w-full items-center justify-center">
         <p>D E S I G N {"_"} S T U D I O</p>

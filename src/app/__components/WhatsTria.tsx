@@ -8,6 +8,7 @@ function WhatsTria() {
         <iframe
           width="860"
           height="615"
+          className="1xl:w-[860px] 1xl:h-[615px] mobile-max: w-[100%] mobile-max:h-auto"
           src="https://www.youtube.com/embed/DTCxg8VX41I?si=Fa6Wy54uckw9j6F0"
           title="Whats Tria"
           frameBorder="0"
